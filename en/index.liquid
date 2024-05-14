@@ -3,4 +3,11 @@ layout: layout-inside.liquid
 title: Serradas.org - in English!
 ---
 
-HelloQ
+<p>
+Hello, I hope you can find something nice here.
+</p>
+
+<p>
+{% assign latestPost = collections.post | sort: 'date' | reverse | first %}
+For starters, you can check my latest post <a href="{{ latestPost.url }}">here</a>
+</p>
