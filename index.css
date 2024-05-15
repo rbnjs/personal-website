@@ -1,13 +1,28 @@
 /* Taking code from https://github.com/oxalorg/sakura/blob/master/css/sakura.css */
-/*
 html {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
-*/
 
 body {
     font-size: 1.5rem;
-    max-width: 28em;
     margin: auto;
     padding: 0.3rem;
+    line-height: 1.618;
+    max-width: 38em;
+}
+
+
+body {
+  background-color: #111111;
+  color: #c9c9c9;
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: #fafafa;
+    color: #4a4a4a;
+  }
+}
+
+nav {
+    margin-bottom: 2.5rem;
 }

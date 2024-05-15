@@ -1,0 +1,14 @@
+---
+layout: layout-inside.liquid
+title: Articles
+---
+
+<h1>Articles</h1>
+
+Here are the latest articles:
+
+<ul>
+    {%- for article in collections.articles -%}
+    <li><a href="{{article.url}}">{{ article.data.title }} - {{article.date | date: "%Y-%m-%d"}}</a></li>
+    {%- endfor -%}
+</ul>
