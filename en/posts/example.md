@@ -1,8 +1,9 @@
 ---
 layout: layout-inside.liquid
-tags: post
+title: Hello
+tags: articles
 ---
 
 # Hello
 
-Example
+I swear I'll write something.

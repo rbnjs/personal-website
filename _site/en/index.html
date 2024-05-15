@@ -15,6 +15,24 @@ body {
     font-size: 1.5rem;
     margin: auto;
     padding: 0.3rem;
+    line-height: 1.618;
+    max-width: 38em;
+}
+
+
+body {
+  background-color: #111111;
+  color: #c9c9c9;
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: #fafafa;
+    color: #4a4a4a;
+  }
+}
+
+nav {
+    margin-bottom: 2.5rem;
 }
 
     </style>
@@ -23,11 +41,8 @@ body {
 <body>
 
 <nav>
-    <a href="/en/index">Home</a>
-    <ul>
-        <li><a href="/en/about">About</a></li>
-        <li><a href="https://github.com/rbnjs">Code</a></li>
-    </ul>
+    <h1><a href="/en/index">Home</a></h1>
+    <span>[ <a href="/en/articles">Articles</a>, <a href="/en/about">About</a>,  <a href="https://github.com/rbnjs">Code</a>]</span>
 </nav>
 
 <p>
@@ -36,7 +51,7 @@ Hello, I hope you can find something nice here.
 
 <p>
 
-For starters, you can check my latest post <a href="/en/posts/example/">here</a>
+For starters, you can check my latest article <a href="/en/posts/example/">here</a>
 </p>
 
 
