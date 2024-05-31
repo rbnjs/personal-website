@@ -1,6 +1,6 @@
 /* Taking code from https://github.com/oxalorg/sakura/blob/master/css/sakura.css */
 html {
-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 body {
@@ -9,20 +9,65 @@ body {
     padding: 0.3rem;
     line-height: 1.618;
     max-width: 38em;
+    text-align: justify;
 }
 
 
 body {
-  background-color: #111111;
-  color: #c9c9c9;
+    background-color: #111111;
+    color: #c9c9c9;
 }
 @media screen and (prefers-color-scheme: light) {
-  body {
-    background-color: #fafafa;
-    color: #4a4a4a;
-  }
+    body {
+        background-color: #fafafa;
+        color: #4a4a4a;
+    }
 }
 
 nav {
     margin-bottom: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+}
+
+h1 {
+    font-size: 2.35em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+img, video {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
