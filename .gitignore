@@ -131,3 +131,4 @@ dist
 
 _site/
 .idea/
+.DS_Store
