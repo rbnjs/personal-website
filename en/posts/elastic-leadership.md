@@ -1,6 +1,7 @@
 ---
 layout: layout-inside.liquid
 title: If your house is on fire... 🔥🏡
+date: git Created
 tags: articles
 ---
 
