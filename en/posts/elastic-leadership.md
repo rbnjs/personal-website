@@ -1,7 +1,7 @@
 ---
 layout: layout-inside.liquid
 title: If your house is on fire... 🔥🏡
-date: git Created
+date: 2024-05-31
 tags: articles
 ---
 

@@ -2,7 +2,7 @@
 layout: layout-inside.liquid
 title: Elastic Leadership - Getting out of the Survival Mode & Learning to Learn
 tags: articles
-date: git Created
+date: 2024-07-26
 ---
 
 # Applying Elastic Leadership
