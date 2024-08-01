@@ -1,6 +1,8 @@
 ---
 layout: layout-inside.liquid
 title: About
+keywords: Ruben Serradas, about Ruben Serradas, personal background, interests, experiences
+description: Learn more about Ruben Serradas, his background, and his interests. Discover the journey and experiences that shape his projects and insights.
 ---
 
 # About
