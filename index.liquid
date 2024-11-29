@@ -1,12 +1,23 @@
 ---
-layout: layout.liquid
-description: Ruben's Serradas personal website index.
+layout: layout-inside.liquid
+title: Serradas.org
+description: Welcome to the English version of Ruben Serradas' personal website. Discover articles, projects, and insights shared by Ruben in a friendly and engaging manner.
 keywords: Ruben Serradas, personal website, multilingual, projects, interests, blog
 ---
- <div style="text-align: center; padding-top: 6rem">
-     <p>Hello friend, this is my website.</p>
-     <p>Hope you have a good time.</p>
-     <p>[ Español, <a href="/en/index">English</a>, Deutsch, 中文]</p>
-     <p>Love,</p>
-     <p>Ruben</p>
- </div>
+
+<p>Hello friend, this is my website.</p>
+
+<p>Hope you have a good time.</p>
+
+<hr>
+
+<h6>Articles</h6>
+
+<p>Some articles I've written</p>
+
+{% assign latestArticles = collections.articles | sort: 'date' | reverse %}
+<ul>
+    {%- for article in latestArticles limit: 2 -%}
+    <li><a href="{{article.url}}">{{ article.data.title }}</a></li>
+    {%- endfor -%}
+</ul>
