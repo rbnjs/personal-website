@@ -8,7 +8,7 @@ body {
     margin: auto;
     padding: 0.3rem;
     line-height: 1.618;
-    max-width: 28em;
+    max-width: 32em;
 }
 p {
 	text-align: justify;
@@ -27,13 +27,14 @@ body {
 }
 
 nav {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
+		margin-top: 0.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.1;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
     overflow-wrap: break-word;
@@ -43,27 +44,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.35em;
-}
-
-h2 {
     font-size: 2em;
 }
 
+h2 {
+    font-size: 1.8em;
+}
+
 h3 {
-    font-size: 1.75em;
+    font-size: 1.6em;
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 h5 {
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 h6 {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 img, video {
