@@ -7,10 +7,11 @@ keywords: Ruben Serradas articles, technology, leadership, personal development,
 
 <h1>Articles</h1>
 
-Here are the latest articles:
+<p>Here are the latest articles:</p>
 
+{% assign articles = collections.articles | sort: 'date' | reverse %}
 <ul>
-    {%- for article in collections.articles -%}
-    <li><a href="{{article.url}}">{{ article.data.title }} - {{article.date | date: "%Y-%m-%d"}}</a></li>
+    {%- for article in articles -%}
+    <li><a href="{{article.url}}">{{article.date | date: "%d-%m-%Y"}} - {{ article.data.title }}</a></li>
     {%- endfor -%}
 </ul>

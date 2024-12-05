@@ -1,0 +1,19 @@
+---
+layout: layout-inside.liquid
+title: Recipes
+description: Recipes which I've collected through the years. Mostly vegan.
+keywords: recipes, food
+---
+
+<h1>Recipes</h1>
+
+<p>These are my recipes. I normally cook vegan (sometimes I use cheese) and I try to avoid using garlic or onion as much as I can.</p>
+
+<p>Unfortunately, they're written in the native language of the person who asked me for the recipe. If you want something in particular just let me know
+<a href="mailto:ruben@serradas.org">here</a>.</p>
+
+<ul>
+    {%- for recipe in collections.recipes -%}
+    <li><a href="{{recipe.url}}">{{recipe.date | date: "%d-%m-%Y"}} - {{ recipe.data.title }}</a></li>
+    {%- endfor -%}
+</ul>
