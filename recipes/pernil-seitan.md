@@ -78,4 +78,9 @@ Voila! Now you can eat "pork", without pork.
 ¡Delicioso! and Feliz Navidad.
 
 
+#### _Pro-tip_
+
+Prepare extra pernil for the 25th. The next day you can eat it with [arepa](https://en.wikipedia.org/wiki/Arepa) or as a sandwich with tomato, salt and maybe an avocado.
+
+
 > Ruben
