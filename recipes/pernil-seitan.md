@@ -59,7 +59,7 @@ For the sauce:
 - Prepare the broth with soy sauce, bay leaves and shiitake mushrooms.
 - Knead the dough again and give it the shape you want. I regularly make 2 logs (some people say that they look like a penis).
 - If you're cooking in a Instant Pot, cook the seitan logs (or whatever shape you've made) for about 15 minutes. Otherwise cook them for around 30 to 40 minutes.
-- Remove the water and they're ready to be used. You can cut them ind pieces later, but I prefer them whole in the oven.
+- Remove the water and they're ready to be used. You can cut them in pieces now, but I prefer them whole in the oven.
 
 ## Sauce
 
