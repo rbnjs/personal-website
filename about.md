@@ -11,7 +11,7 @@ This website started as a joke to amuse my friends in the office and to have a r
  
 Later, I decided to use it as a blog to bring my ideas to life. That was too serious so now is a joke and a website.
 
-The design is [intentionally brutalist](https://brutalist-web.design/). 
+The design was [intentionally brutalist](https://brutalist-web.design/). 
 I wanted to remove as much clutter as possible and let people read it in any browser they want (this works well on [lynx](https://lynx.invisible-island.net/)). 
 
 I started with a [Pelican blog](https://blog.getpelican.com/) and my [own theme](https://gitlab.com/rbnjs/pelican-zen-theme) but I thought it was too boring

@@ -1,6 +1,6 @@
 /* Taking code from https://github.com/oxalorg/sakura/blob/master/css/sakura.css */
 html {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+	font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif;
 }
 
 body {
@@ -10,77 +10,86 @@ body {
     line-height: 1.618;
     max-width: 32em;
 }
+
 p {
 	text-align: justify;
+	hyphens: auto;
 }
 
 
 body {
-    background-color: #ffeee3;
-    color: rgba(0, 0, 0, 0.7);
-}
-@media screen and (prefers-color-scheme: light) {
-    body {
-        background-color: #fafafa;
-        color: rgba(0, 0, 0, 0.7);
-    }
+	background-color: #fff;
+	color: var(--lt-color-gray-800);
 }
 
 nav {
-    margin-bottom: 1rem;
-		margin-top: 0.5rem;
+	margin-bottom: 1rem;
+	margin-top: 0.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 1.1;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-    font-weight: 600;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    -ms-word-break: break-all;
-    word-break: break-word;
+	line-height: 1.1;
+	font-weight: 600;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-word;
 }
 
 h1 {
-    font-size: 2em;
+	font-size: 2em;
 }
 
 h2 {
-    font-size: 1.9em;
+	font-size: 1.9em;
 }
 
 h3 {
-    font-size: 1.8em;
+	font-size: 1.8em;
 }
 
 h4 {
-    font-size: 1.7em;
+	font-size: 1.7em;
 }
 
 h5 {
-    font-size: 1.6em;
+	font-size: 1.6em;
 }
 
 h6 {
-    font-size: 1.5em;
+	font-size: 1.5em;
 }
 
 img, video {
-    height: auto;
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	height: auto;
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 ul {
-  padding-left: 1.4em;
-  margin-top: 0px;
-  margin-bottom: 2.5rem;
+	padding-left: 1.4em;
+	margin-top: 0px;
+	margin-bottom: 2.5rem;
 }
 
 li {
-  margin-bottom: 0.4em;
+	margin-bottom: 0.4em;
+}
+
+a {
+	color: inherit;
+	transition-property: background;
+	transition-duration: 0.6s;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a:hover {
+	background: var(--lt-color-gray-700);
+	color: var(--lt-color-gray-200);
+	text-decoration: none;
 }
