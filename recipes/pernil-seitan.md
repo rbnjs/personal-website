@@ -27,7 +27,7 @@ It's inspired in 2 sources:
 
 For the "pork":
 - **Seitan mixture**: You can find it in Amazon or in vegan stores. Around 1 cup is enough for 4 people.
-- **Can of Chickpeas**: 1 can per cup of seitan.
+- **Can of Chickpeas (400g)**: 1 can per cup of seitan.
 - **Paprika**: Around one teaspoon.
 - **Pepper**: half a teaspoon.
 - **Chili Powder (optional)**: Around half a teaspoon. 
