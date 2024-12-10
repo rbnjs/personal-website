@@ -52,7 +52,7 @@ For the sauce:
 ## Seitan
 
 - Put the seitan mixture in a bowl
-- Blend the can of chickpeas and add them to the bowl with the seitan. Don't be afraid.
+- Blend the can of chickpeas **with the water** and add the mixture to the bowl with the seitan. Don't be afraid.
 - Add the spices.
 - Knead the dough for around 5 minutes. If you need more water, add a couple of tablespoons, but it's usually unnecessary. Keep kneading.
 - Let the dough rest for 20 minutes.
