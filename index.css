@@ -13,7 +13,7 @@
 }
 
 html {
-	font-family: "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif;
+	font-family: "Charter", "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif;
 }
 
 body {
@@ -105,4 +105,26 @@ a:hover {
 	background: var(--lt-color-gray-700);
 	color: var(--lt-color-gray-200);
 	text-decoration: none;
+}
+
+footer {
+	font-size: 1.2rem;
+}
+
+.footer-sitemap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-sitemap h6 {
+    font-size: 1.4rem;
+}
+.footer-sitemap ul {
+    list-style: none;
+    margin-left: -1.2rem;
+    margin-top: -1rem;
+}
+
+footer > p {
+	text-align: center;
 }
