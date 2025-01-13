@@ -109,10 +109,21 @@ a:hover {
 
 footer {
 	font-size: 1.2rem;
-  display: flex;
-  justify-content: space-around;
 }
 
+.footer-sitemap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-sitemap h6 {
+    font-size: 1.4rem;
+}
+.footer-sitemap ul {
+    list-style: none;
+    margin-left: -1.2rem;
+    margin-top: -1rem;
+}
 
 footer > p {
 	text-align: center;
