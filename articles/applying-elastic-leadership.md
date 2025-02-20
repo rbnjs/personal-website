@@ -1,7 +1,9 @@
 ---
 layout: layout-inside.liquid
 title: Elastic Leadership
-tags: articles
+tags: 
+  - articles
+  - en
 date: 2024-07-26
 description: Learn practical steps to apply Elastic Leadership principles and transition your team from survival mode to a learning and growth mindset with insights from Ruben Serradas.
 keywords: Applying Elastic Leadership, Ruben Serradas, team leadership, growth mindset, survival mode, practical leadership steps
