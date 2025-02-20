@@ -1,0 +1,18 @@
+---
+pagination:
+  data: collections.allTags
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag | slugify }}/
+layout: layout-inside.liquid
+---
+
+<h1>Posts tagged with "{{ tag }}"</h1>
+
+<ul>
+  {% for post in collections.all %}
+    {% if post.data.tags contains tag %}
+      <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>

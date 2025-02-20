@@ -13,6 +13,12 @@ keywords: recipes, food
 <a href="mailto:ruben@serradas.org">here</a>.</p>
 
 <ul>
+{% for tag in collections.tag %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>
+
+<ul>
     {%- for recipe in collections.recipes -%}
     <li><a href="{{recipe.url}}">{{recipe.date | date: "%d-%m-%Y"}} - {{ recipe.data.title }}</a></li>
     {%- endfor -%}

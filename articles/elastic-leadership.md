@@ -2,7 +2,9 @@
 layout: layout-inside.liquid
 title: If your house is on fire... 🔥🏡
 date: 2024-05-31
-tags: articles
+tags: 
+  - articles
+  - en
 description: Dive into the concept of Elastic Leadership with Ruben Serradas. Understand the principles and strategies to lead teams effectively out of survival mode.
 keywords: Elastic Leadership, Ruben Serradas, leadership strategies, team management, survival mode
 ---
