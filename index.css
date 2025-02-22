@@ -13,14 +13,14 @@
 }
 
 html {
-	font-family: "Charter", "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif;
+	font-family: "Source Serif 4", "Helvetica Neue", "Helvetica", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif;
 }
 
 body {
 	font-size: 1.5rem;
 	margin: auto;
 	padding: 0.3rem;
-	line-height: 1.618;
+	line-height: 2.1rem;
 	max-width: 32em;
 }
 
@@ -127,4 +127,21 @@ footer {
 
 footer > p {
 	text-align: center;
+}
+
+/* source-serif-4-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/source-serif-4-v8-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* source-serif-4-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Source Serif 4';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/source-serif-4-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
