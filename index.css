@@ -145,3 +145,23 @@ footer > p {
   font-weight: 700;
   src: url('/fonts/source-serif-4-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+body.landing-page {
+	margin-top: 33%;
+	font-size: 3rem;
+	background-color: var(--lt-color-gray-900);
+	color: var(--lt-color-gray-100);
+	display: flex;
+	align-items: center; /* Center vertically */
+	justify-content: center; /* Center horizontally */
+	height: 90vh; /* Full viewport height */
+	margin: 0; /* Remove default margin */
+}
+
+.vertical-line {
+	width: 1px; /* Line width */
+	height: 14rem; /* Line height */
+	background-color: var(--lt-color-gray-100); /* Line color */
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}

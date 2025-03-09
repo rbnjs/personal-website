@@ -1,23 +1,29 @@
 ---
-layout: layout-inside.liquid
-title: Serradas.org
+layout: layout.liquid
+sitle: Serradas.org
 description: Welcome to the English version of Ruben Serradas' personal website. Discover articles, projects, and insights shared by Ruben in a friendly and engaging manner.
 keywords: Ruben Serradas, personal website, multilingual, projects, interests, blog
 ---
 
-<p>Hello friend, this is my website.</p>
+<body class="landing-page">
 
-<p>Hope you have a good time.</p>
+	<div>
+		<h1>Serradas.org</h1>
+	</div>
 
-<hr>
+	<div class="vertical-line"></div>
 
-<h6>Articles</h6>
+	<div>
+			<a href="/articles">articles</a>
+			<br>
+			<br>
+			<a href="mailto:ruben@serradas.org">contact</a>
+			<br>
+			<br>
+			<a href="https://linkfed.4d6.studio/profile/rbnjs">code</a>
+			<br>
+			<br>
+			social: [<a href="https://fosstodon.org/@rbnjs">mastodon</a>, <a href="https://linkfed.4d6.studio/profile/rbnjs">linkfed</a>]
+	</div>
 
-<p>Some articles I've written</p>
-
-{% assign latestArticles = collections.articles | sort: 'date' | reverse %}
-<ul>
-    {%- for article in latestArticles limit: 2 -%}
-    <li><a href="{{article.url}}">{{ article.data.title }}</a></li>
-    {%- endfor -%}
-</ul>
+</body>
