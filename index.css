@@ -148,7 +148,6 @@ footer > p {
 
 body.landing-page {
 	margin-top: 33%;
-	font-size: 3rem;
 	background-color: var(--lt-color-gray-900);
 	color: var(--lt-color-gray-100);
 	display: flex;
@@ -158,9 +157,15 @@ body.landing-page {
 	margin: 0; /* Remove default margin */
 }
 
+@media (min-width: 600px) {
+	body.landing-page {
+		font-size: 3rem;
+	}
+}
+
 .vertical-line {
 	width: 1px; /* Line width */
-	height: 14rem; /* Line height */
+	height: 100%; /* Line height */
 	background-color: var(--lt-color-gray-100); /* Line color */
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
