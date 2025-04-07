@@ -20,6 +20,6 @@ keywords: recipes, food
 
 <ul>
     {%- for recipe in collections.recipes -%}
-    <li><a href="{{recipe.url}}">{{recipe.date | date: "%d-%m-%Y"}} - {{ recipe.data.title }}</a></li>
+			<li><a href="{{recipe.url | url }}">{{recipe.date | date: "%d-%m-%Y"}} - {{ recipe.data.title }}</a></li>
     {%- endfor -%}
 </ul>

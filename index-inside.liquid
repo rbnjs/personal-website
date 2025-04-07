@@ -18,6 +18,6 @@ keywords: Ruben Serradas, personal website, multilingual, projects, interests, b
 {% assign latestArticles = collections.articles | sort: 'date' | reverse %}
 <ul>
     {%- for article in latestArticles limit: 2 -%}
-    <li><a href="{{article.url}}">{{ article.data.title }}</a></li>
+    <li><a href="{{ article.url | url }}">{{ article.data.title }}</a></li>
     {%- endfor -%}
 </ul>

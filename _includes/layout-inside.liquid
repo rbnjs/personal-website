@@ -4,8 +4,8 @@ layout: layout.liquid
 
 <body>
 	<nav>
-		<span><a href="/index-inside">Home</a></span>
-		<span >[ <a href="/about">About</a>, <a href="https://linkfed.4d6.studio/profile/rbnjs">Code</a> ]</span>
+		<span><a href="{{'/index-inside' | url}}">Home</a></span>
+		<span >[ <a href="{{'/about' | url}}">About</a>, <a href="https://linkfed.4d6.studio/profile/rbnjs">Code</a> ]</span>
 	</nav>
 	<hr>
 	{{content}}
@@ -22,8 +22,8 @@ layout: layout.liquid
 			<div>
 				<h6>Posts</h6>
 				<ul>
-					<li><a href="/articles">Articles</a></li>
-					<li><a href="/recipes">Recipes</a></li>
+					<li><a href="{{'/articles' | url}}">Articles</a></li>
+					<li><a href="{{'/recipes' | url}}">Recipes</a></li>
 				</ul>
 			</div>
 			<div>

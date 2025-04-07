@@ -12,6 +12,6 @@ keywords: Ruben Serradas articles, technology, leadership, personal development,
 {% assign articles = collections.articles | sort: 'date' | reverse %}
 <ul>
     {%- for article in articles -%}
-    <li><a href="{{article.url}}">{{article.date | date: "%d-%m-%Y"}} - {{ article.data.title }}</a></li>
+			<li><a href="{{article.url | url }}">{{article.date | date: "%d-%m-%Y"}} - {{ article.data.title }}</a></li>
     {%- endfor -%}
 </ul>
