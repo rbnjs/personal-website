@@ -2,7 +2,7 @@
 layout: layout-inside.liquid
 title: About
 keywords: Ruben Serradas, about Ruben Serradas, personal background, interests, experiences
-description: Learn more about Ruben Serradas, his background, and his interests. Discover the journey and experiences that shape his projects and insights.
+description: Personal background of Ruben Serradas.
 ---
 
 # About
@@ -21,7 +21,7 @@ so now I'm using [eleventy](https://www.11ty.dev/).
 
 Not much about me. I like computers.
 
-Currently, I live in Germany and I work as a Tech Lead.
+I'm originally Venezuelan but I worked as a Tech Lead in Germany for some time and I moved to Taiwan on 2025.
 
 In the future, I'll probably be a monk or plant cabbage (both, in best case scenario).
 
@@ -34,4 +34,13 @@ I've worked in the following side projects:
 * [Second Brain](https://web.archive.org/web/20200927120417/https://secondbrainio.com/)
 * [UrbanTalkie](https://urbantalkie.com/)
 
-If you want to check more recent projects, you can go to the code section in the navbar.
+I'm interested in FOSS projects at the moment, you can have a look [here](https://linkfed.4d6.studio/profile/rbnjs)
+
+## Work with me
+
+If you're interested in working with me have a look here:
+
+1. [Matrix Chat](https://matrix.to/#/#4d6.studio:matrix.org)
+2. [Email Me](mailto:ruben@4d6.studio)
+3. [GitLab Repository](https://gitlab.com/4d6/4d6)
+
