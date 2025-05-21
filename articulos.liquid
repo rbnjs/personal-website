@@ -1,0 +1,22 @@
+---
+layout: layout-inside.liquid
+title: Artículos
+description: Artículos y publicaciones escritas por Ruben Serradas
+keywords: artìculos, español
+---
+
+<h1>Artículos</h1>
+
+<p>Esta es una colección de artículos y publicaciones en español. Los temas varían, pues escribo acerca de lo que me de la gana.</p>
+
+<p>Muchos gusto,</p>
+
+
+<p>Ruben</p>
+
+{% assign articles = collections.articulos | sort: 'date' | reverse %}
+<ul>
+    {%- for article in articles -%}
+			<li><a href="{{article.url | url }}">{{article.date | date: "%d-%m-%Y"}} - {{ article.data.title }}</a></li>
+    {%- endfor -%}
+</ul>
