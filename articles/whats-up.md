@@ -27,13 +27,16 @@ Taiwan has given me the chance to reconnect with a more communal mindset. Spirit
 
 On the work front, if I can even call it that, I’ve been focusing on [4d6.studio](https://4d6.studio), a product laboratory where I bring my ideas to life. The first experiment to emerge is [LinkFed](https://linkfed.4d6.studio), a professional social network loosely inspired by LinkedIn.
 
-But what problem am I solving with LinkFed?
+![4d6.studio first version website](/img/whats-up/dadoplain.svg "4d6 Website")
+
+#### But what problem am I solving with LinkFed?
 
 Here’s the gist: finding a job that doesn’t suck (excuse my French) is way harder than it should be. Most of us are stuck in a hamster wheel of hustling for roles that feel hollow, rinse and repeat.
 
 Looking at the broader system, it's clear that there’s a power imbalance. Employers hold most of the cards, even though employees are the ones generating value. Am I criticizing capitalism? Maybe. I don’t claim to have all the answers. But I do know that most existing platforms just mirror the system we already have.
 
 With LinkFed, I wanted to imagine something different, something closer to what I wish we have. A collaborative space that encourages people to help each other and rewards that help in meaningful ways.
+
 
 
 ## What makes LinkFed different?
@@ -45,6 +48,14 @@ So in general, LinkFed has the following differences:
 - The **Pebs System** Inspired by "The Monk and the Robot" sci-fi series, "pebs" are a symbolic currency similar to karma on Reddit or Hacker News, but with a twist. There’s no coercion or punishment. Low pebs simply indicate that someone needs help. It’s a gentle, empathetic way to encourage giving.
 - **Static Site Deployment**, LinkFed allows users to deploy lightweight static websites, making it easy to showcase portfolios, resumes, or projects.
 - **Followable Professional Profiles** like a hybrid between GitHub and LinkedIn: followers can stay updated on your work, posts, and links, without the corporate vibe.
+
+Here are some examples on how I use LinkFed:
+
+![Ruben Serradas profile in LinkFed](/img/whats-up/profile.png "rbnjs profile")
+
+My CV:
+
+![Ruben Serradas Resume](/img/whats-up/cv.png "rbnjs cv")
 
 ##  What am I looking for?
 
