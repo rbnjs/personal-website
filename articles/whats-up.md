@@ -15,6 +15,8 @@ keywords: Taiwan, LinkFed, Fediverse, FOSS
 
 > TLDR: Quit my job, move to Taiwan, working on LinkFed and looking for collaborators.
 
+![Taiwan image](/img/whats-up/taiwan.jpg "Taiwan")
+
 After quitting my job and leaving Germany for Taiwan a few months ago, it's hard to give an answer when people ask what I’m doing now. The easiest one is that I’m learning Chinese.
 
 A lot of Chinese speakers (華人) ask me, with amused curiosity, why I would take on such a difficult language. And sure, it’s hard. But it’s also really fun. 
@@ -27,7 +29,7 @@ Taiwan has given me the chance to reconnect with a more communal mindset. Spirit
 
 On the work front, if I can even call it that, I’ve been focusing on [4d6.studio](https://4d6.studio), a product laboratory where I bring my ideas to life. The first experiment to emerge is [LinkFed](https://linkfed.4d6.studio), a professional social network loosely inspired by LinkedIn.
 
-![4d6.studio first version website](/img/whats-up/dadoplain.svg "4d6 Website")
+![4d6.studio logo](/img/whats-up/dadoplain.svg "4d6 Logo Website")
 
 #### But what problem am I solving with LinkFed?
 
