@@ -38,9 +38,4 @@ I'm interested in FOSS projects at the moment, you can have a look [here](https:
 
 ## Work with me
 
-If you're interested in working with me have a look here:
-
-1. [Matrix Chat](https://matrix.to/#/#4d6.studio:matrix.org)
-2. [Email Me](mailto:ruben@4d6.studio)
-3. [GitLab Repository](https://gitlab.com/4d6/4d6)
-
+If you're interested in working with me, you can always [email me](mailto:ruben@serradas.org).
