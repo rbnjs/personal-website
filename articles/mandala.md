@@ -134,6 +134,6 @@ Ruben
 
 ### Should you share your goals with everyone?
 
-In many cultures—Spanish-speaking ones included—discussing big dreams prematurely is often viewed with superstition or skepticism. Personally, I am wary of broadcasting my deepest goals. The examples above are close enough to reality to explain the method, but my true, detailed chart remains private, stored safely on my PC.
+In many cultures, like the Spanish-speaking one, discussing big dreams prematurely is often viewed with superstition or skepticism. Personally, I am not a fan of talking about my deepest goals. The examples above are close enough to reality to explain the method, but my true, detailed chart remains private, stored safely on my PC.
 
 Whatever method you choose, remember: the map is not the real thing, but it is a model to ensure you don't get lost.
