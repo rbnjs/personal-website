@@ -9,13 +9,15 @@ description:  The core idea is simple, you place a **central objective** in the 
 keywords: Gettings things done, organization, mandala, chart
 ---
 
+# Organizing Goals with Mandala Charts
+
 As the year comes to its end, or perharps has already ended by the time you read this, though I still have the Chinese New Year, many draft new year's resolutions. They are often made to feel guilty about not achieving them. Well, at least the gyms will be packed on January.
 
 Fortunately you're not like them my dear reader! What you write down, you   accomplish.
 
 I rarely write year-end reflections or make simple wishes. However, in my Meditation Center we spent some time writting Mandala Charts and we had a really great time. I'd like to share it with you.
 
-So what's a Mandala Chart?
+## So what's a Mandala Chart?
 
 The concept takes its name from the intricate, circular art created by early Indian and Tibetan Buddhists, often destroyed upon completion to symbolize impermanence.
 
@@ -23,9 +25,9 @@ The core idea is simple: you place a **central objective** in the middle of a 3x
 
 These eight supporting objectives then become the centers of their own 3x3 matrices, expanding the chart into a massive 9x9 grid. Each supporting objective is flanked by eight concrete "sub-objectives" or actionable tasks.
 
-The method exploded in popularity here in Taiwan thanks to Shohei Ohtani. The baseball superstar famously used a Mandala Chart to visualize the specific skills and habits required to achieve his historic success. It is a tool for clarity—a map that proves having a destination is only the first step; the journey requires daily, actionable mechanics.
+The method exploded in popularity here in Taiwan thanks to Shohei Ohtani. The baseball superstar famously used a Mandala Chart to visualize the specific skills and habits required to achieve his historic success ([Here is a recopilation video of him with Eurodance music to make you believe](https://peertube.linuxrocks.online/w/7hvcyGFLhSAPsc883qZjEx?start=39s)). It is a tool for clarity; the journey requires daily and consistent work.
 
-### The Mechanics
+## The Mechanics
 
 Take a piece of paper and draw a 3x3 grid. In the center square, write your main goal for the year (e.g., a career milestone or lifestyle change). In the surrounding eight squares, write the pillars required to support that goal. For example, if your goal is career advancement, pillars might include "Public Speaking," "Technical Certification," or "Networking."
 
@@ -33,7 +35,7 @@ Next, expand outward. Create eight new 3x3 grids. Place those "pillar" objective
 
 By the time you finish, you will have roughly 72 specific sub-objectives.
 
-**Isn't that too much?**
+## Isn't that too much?
 
 It can be. Living in Germany, I developed a strong distaste for corporate KPIs (Key Performance Indicators). They were often paradoxically tied to performance reviews: you were expected to set ambitious goals, yet penalized if you didn't hit 100% of them.
 
@@ -46,7 +48,7 @@ Life goals must be different. To do something truly meaningful, we should strive
 - **Width:** Does this goal serve others, or only yourself?
     
 
-**A Digital Approach**
+## A Digital Approach
 
 I approach the Mandala Chart differently. I prefer digital text and secure file storage over paper, so I utilize **Mermaid.js** to create a mindmap (or a graph, for my Computer Science friends).
 
@@ -121,10 +123,16 @@ I haven’t fully completed my chart yet, but this illustrates the method. If yo
 
 ![A proper Mandala Chart written in paper](/img/mandala/mandala-paper.jpeg)
 
+But it doesn't feel so cool to me. In any case, I hope this method of visualizing goals can help you make your dreams come true (夢想成真).
+
+Have a blessed 2026,
+
+Ruben
+
 
 ### A Final Note on Privacy
 
-**Should you share your goals with everyone?**
+### Should you share your goals with everyone?
 
 In many cultures—Spanish-speaking ones included—discussing big dreams prematurely is often viewed with superstition or skepticism. Personally, I am wary of broadcasting my deepest goals. The examples above are close enough to reality to explain the method, but my true, detailed chart remains private, stored safely on my PC.
 
