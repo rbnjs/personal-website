@@ -11,6 +11,17 @@ keywords: Ruben Serradas, personal website, multilingual, projects, interests, b
 
 <hr>
 
+<h6>Artículos</h6>
+
+<p>Artículos en Español:</p>
+
+{% assign latestArticles = collections.articulos | sort: 'date' | reverse %}
+<ul>
+    {%- for article in latestArticles limit: 2 -%}
+    <li><a href="{{ article.url | url }}">{{ article.data.title }}</a></li>
+    {%- endfor -%}
+</ul>
+
 <h6>Articles</h6>
 
 <p>Some articles I've written</p>
@@ -21,3 +32,4 @@ keywords: Ruben Serradas, personal website, multilingual, projects, interests, b
     <li><a href="{{ article.url | url }}">{{ article.data.title }}</a></li>
     {%- endfor -%}
 </ul>
+
