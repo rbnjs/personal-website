@@ -4,34 +4,36 @@ layout: layout.liquid
 
 <body>
 	<nav>
-		<span><a href="{{'/index-inside' | url}}">Home</a></span>
-		<span >[ <a href="{{'/about' | url}}">About</a>, <a href="https://gitlab.com/rbnjs">Code</a> ]</span>
+		<a href="{{'/index-inside' | url}}">Home</a> | 
+		<a href="{{'/about' | url}}">About</a> | 
+        <a href="https://gitlab.com/rbnjs">Code</a>
 	</nav>
 	<hr>
-	{{content}}
+    <main>
+	    {{content}}
+    </main>
 	<hr>
 	<footer>
 		<div class="footer-sitemap">
 			<div>
-				<h6>Social</h6>
+				<h3>Social</h3>
 				<ul>
 					<li><a rel="me" href="https://fosstodon.org/@rbnjs">Mastodon</a></li>
 				</ul>
 			</div>
 			<div>
-				<h6>Posts</h6>
+				<h3>Posts</h3>
 				<ul>
 					<li><a href="{{'/articles' | url}}">Articles</a></li>
 					<li><a href="{{'/recipes' | url}}">Recipes</a></li>
 				</ul>
 			</div>
 			<div>
-				<h6>Contact</h6>
+				<h3>Contact</h3>
 				<ul>
 					<li><a href="mailto:ruben@serradas.org">email</a></li>
 				</ul>
 			</div>
-
 		</div>
 		<p>Copyright <a href="https://serradas.org/">serradas.org</a></p>
 		<p>This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>

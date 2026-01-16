@@ -40,7 +40,12 @@ nav {
 	margin-top: 0.5rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	line-height: 1.1;
 	font-weight: 600;
 	margin-top: 1.5rem;
@@ -75,7 +80,8 @@ h6 {
 	font-size: 1.0em;
 }
 
-img, video {
+img,
+video {
 	height: auto;
 	max-width: 100%;
 	display: block;
@@ -112,38 +118,44 @@ footer {
 }
 
 .footer-sitemap {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
-.footer-sitemap h6 {
-    font-size: 1.4rem;
+.footer-sitemap h3 {
+	font-size: 1.4rem;
 }
+
 .footer-sitemap ul {
-    list-style: none;
-    margin-left: -1.2rem;
-    margin-top: -1rem;
+	list-style: none;
+	margin-left: -1.2rem;
+	margin-top: -1rem;
 }
 
-footer > p {
+footer>p {
 	text-align: center;
 }
 
 /* source-serif-4-regular - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Source Serif 4';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/source-serif-4-v8-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Source Serif 4';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/source-serif-4-v8-latin-regular.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* source-serif-4-700 - latin */
 @font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Source Serif 4';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/fonts/source-serif-4-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	font-display: swap;
+	/* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Source Serif 4';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/source-serif-4-v8-latin-700.woff2') format('woff2');
+	/* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 body.landing-page {
@@ -151,10 +163,20 @@ body.landing-page {
 	background-color: var(--lt-color-gray-900);
 	color: var(--lt-color-gray-100);
 	display: flex;
-	align-items: center; /* Center vertically */
-	justify-content: center; /* Center horizontally */
-	height: 90vh; /* Full viewport height */
-	margin: 0; /* Remove default margin */
+	align-items: center;
+	/* Center vertically */
+	justify-content: center;
+	/* Center horizontally */
+	height: 90vh;
+	/* Full viewport height */
+	margin: 0;
+	/* Remove default margin */
+}
+
+.landing-page main {
+	display: flex;
+	align-items: center;
+	height: 100%;
 }
 
 @media (min-width: 600px) {
@@ -164,9 +186,12 @@ body.landing-page {
 }
 
 .vertical-line {
-	width: 1px; /* Line width */
-	height: 100%; /* Line height */
-	background-color: var(--lt-color-gray-100); /* Line color */
+	width: 1px;
+	/* Line width */
+	height: 100%;
+	/* Line height */
+	background-color: var(--lt-color-gray-100);
+	/* Line color */
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
 }
