@@ -5,8 +5,8 @@ date: 2025-10-12
 tags: 
   - articles
   - en
-description: A new start with Ciceru!
-keywords: Taiwan, Ciceru
+description: Ruben lists his new responsibilities at Ciceru, a product studio, including his role as Head of Automation and the team's ethical approach to software.
+keywords: Taiwan, Ciceru, Product Studio, Automation, Ethical Software
 ---
 
 # A new start with [Ciceru](https://ciceru.com/)
