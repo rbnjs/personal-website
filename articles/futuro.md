@@ -3,7 +3,7 @@ layout: layout-inside.liquid
 title: El futuro
 date: 2026-01-16
 tags: 
-  - articles
+  - articulos
   - es
 description: Una ojeada la famosa frase de Orwell "Si quieres tener una imagen del futuro, imagina una bota pisando un rostro humano, para siempre."
 keywords: Futuro
